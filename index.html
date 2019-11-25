@@ -8,109 +8,157 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Ngwa Rogers</title>
 
-  <style>
-
-img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-}
-
-<img src="jus.jpg " alt="Pa">
-
-    p{color: green;
-
-    }
-    h1 {
-  border-style: solid;
-  border-width: medium;
-  
-}
-h1 {
-  border: 5px solid red;
-}
-    body {
-  background-color: lightblue;
-  
-
-}
-head {
-  display:grid;
-
-grid-template-column:1fr 1fr
-  
-}
-
-main {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start:2 ;
-  grid-row-end: 3;
-
-}
-aside{
-  grid-row-start: 1;
-}
-</style>
-<img src="download.jpg"
-</head>
-
-<body>
-    <header>
-        <h1><center>Ngwa Rogers</h1> </center>
-        <h2 ><marquee>Green Techonlogy </marquee></h2>
-        <main>
-        <p> An IT specialist base on IT solution such as Mentainance,Networking,Installation of security </p>
+    <style>
 
 
-          <p>
-              An information technology (IT) solution is a set of related software programs and/or services that are sold as a single package. IT vendors, service providers and value-added resellers (VARs) market their software suites and service bundles under the label solution to promote the idea that purchasing the product will help the customer successfully solve a problem or deal with a complicated situation.
-              Many vendors, software developers, in particular, refer to all of their individual products as software solutions. For example, a vendor may call its antivirus software a solution because it helps to solve a particular problem.
-              In a stricter sense, however, an IT solution is an aggregation of products and services, as opposed to a single, discrete product. To accurately be called a solution, therefore, the antivirus software should be bundled with related products, such as a spam filter or backup service.
-              The product versus solution distinction extends back to the 1970s, when VARs emerged. At that time, the rise of microcomputers moved computing beyond the glass house and out to other departments, such as manufacturing and engineering. In response, VARs bundled software -- their own or a third-party package -- with a particular hardware platform and sold the bundle as a turnkey solution designed specifically for a particular use case. Frequently, such hardware/software solutions targeted customers in niche vertical markets.
-              Types of IT solution providers
-              In the 1980s, some VARs began marketing themselves as solution sellers or solution providers -- a label that many channel partners continue to use today. VARs and channel partners learned to get close to their customers, learn about their pain points and then bundle products to solve their problems. Systems integrators also emerged under the solution provider banner, offering a mix of consulting, software customization and implementation services. In the 1990s, VARs began to offer consulting and other professional services to complement their turnkey solutions.
-              The rapid growth of local area networks in the late 1980s and early 1990s gave rise to network solutions, as customers requested help in designing, installing and supporting networks. Network-oriented resellers, also known as network integrators, initially focused on Novell's NetWare product, but eventually shifted their network solutions' emphasis to Windows and open source operating systems, as those software platforms gained networking capabilities.
-              Internet expands possibilities for IT solution providers
-
-
-          </p>
-          <h2>Center for vocational training in IT solution</h2>
-          <ul>
-
-      <aside>
-       <ul>
-          <li><a href="https://github.com/scottgruber/academic-jumpstart">Get the starter kit code</a></li>
-
-        </ul>
-      </aside>
-    </header>
+      * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      /* Style the header */
+      header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+      
+      /* Create two columns/boxes that floats next to each other */
+      nav {
+        float: left;
+        width: 30%;
+        height: 300px; /* only for demonstration, should be removed */
+        background: #ccc;
+        padding: 20px;
+      }
+      
+      /* Style the list inside the menu */
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 300px; /* only for demonstration, should be removed */
+        
+      }
+      
+      /* Clear floats after the columns */
+      section:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Style the footer */
+      footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+      
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 600px) {
+        nav, article {
+          width: 100%;
+          height: auto;
+        }
+      }
+      body {
+        background-color: #faf2e4;
+        margin: 0 10%;
+        font-family: sans-serif;
+        }
+      
+      h1 {
+        text-align: center;
+        font-family: serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        border-bottom: 1px solid #57b1dc;
+        margin-top: 30px;
+      }
+      
+      h2 {
+        color: #d1633c;
+        font-size: 1em;
+      }
+      
+      </style>
+      </head>
+      
+      <body>
+      
+      
+      
+          <header>
+          <h2>NKWEN CULTURAL DEVELOPMENT ASSSOCIATION</h2>
+        </header>
+        
+        <section>
+          <nav>
+            <ul>
+              <li><a href="#">Yaounde</a></li>
+              <li><a href="#">DOUALA</a></li>
+              <li><a href="#">BUEA</a></li>
+            </ul>
+          </nav>
+          
+          <article>
+            <h1>ABOUT NKWEN </h1>
+            <p>Found in Mezam West Region of Cameroon.</p>
+            <p>A land of Fatal resources  </p>
+          </article>
+        </section>
+        
+      
+        
+      <h1><img src="L:\Yaoundé Web Design Workshop\FON.jpg" alt="logo"><br>Nkwen Fon</h1><aside><img src="L:\Yaoundé Web Design Workshop\nkwen.jpg" alt="logo"><br>Nkwen Fon's Palace</h1></aside>
+      
+      <h2> BRANCHES</h2>
+      
+      <a href="https://rogers8619.github.io/">Yaounde</a>
+      <a href="Douala"> Douala</a>
+      <a href="Buea"> Buea</a>
+      <a href="Abroad">Abroad</a>
+      
+      <p>NEED MESSAGE HERE.</p>
+      
+      <h2>Catering</h2>
+      <p>You have fun. <em>We'll handle the cooking.</em> Black Goose Catering can handle events from snacks for a meetup to elegant corporate fundraisers.</p>
+      
+      <h2>Location and Hours</h2>
+      <p>Seekonk, Massachusetts;<br>
+      Monday through Thursday 11am to 9pm; <br>Friday and Saturday, 11am to midnight</p>
+      <video width="400" controls>
+          <source src="mov_bbb.mp4" type="video/mp4">
+          <source src="mov_bbb.ogg" type="video/ogg">
+          Your browser does not support HTML5 video.
+        </video>
+        
+        <p>
+            Video About NKWEN 
+            <a href="https://www.bigbuckbunny.org/" target="_blank">Nkwen </a>.
+            </p>
+      
+      
       <footer>
-          <li><a href="color/index.html">Color swatches and tokens</a></li>
-              <li><a href="typography/index.html">Typography</a></li>
-              <li><a href="iconography/index.html">Iconography</a></li>
-              <li><a href="html/index.html">HTML</a></li>
-
-          </ul>
-
-          <ul>
-            <li><a href="about/">About</a></li>
-            <li><a href="blog/">Blog</a></li>
-            <li><a href="contact/">Contact</a></li>
-            <li><a href="now/">Now</a></li>
-            <li><a href="projects/">Projects</a></li>
-            <li><a href="publications/">Publications</a></li>
-            <li><a href="research/">Research</a></li>
-            <li><a href="talks/">Talks</a></li>
-            <li><a href="teaching/">Teaching</a></li>
-          </ul>
-
-      </main>
+      
+        <p>created by: Ngwa Rogers</p>
+        <p>Contact information: <a href="mailto:https://mail.google.com/mail/u/0/#inbox?compose=new">ngwarogers@gmail.com</a>.</p>
       </footer>
-</body>
-
-
-
-
-</html>
+      
+      
+      </body>
+      
+      </html>
